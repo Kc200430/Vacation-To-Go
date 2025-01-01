@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Explore the World with Vacation Planner</h1>
+        <nav>
+            <a href="#about-us">About Us</a>
+            <a href="#destinations">Destinations</a>
+            <a href="#itineraries">Itineraries</a>
+            <a href="#travel-tips">Travel Tips</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about-us">
+            <h2>About Us</h2>
+            <p>Welcome to Vacation Planner! We are dedicated to helping you discover amazing destinations, plan your dream vacation, and travel smartly. Whether you're seeking adventure, relaxation, or cultural experiences, we've got you covered.</p>
+        </section>
+        <section id="destinations">
+            <h2>Top Destinations</h2>
+            <div class="destination">
+                <h3>Paris, France</h3>
+                <p>The City of Light beckons with its timeless charm, iconic landmarks, and exquisite cuisine.</p>
+                <img src="paris.jpg" alt="Eiffel Tower" />
+            </div>
+            <div class="destination">
+                <h3>Kyoto, Japan</h3>
+                <p>Experience the serene beauty of Kyoto’s temples, gardens, and traditional wooden houses.</p>
+                <img src="kyoto.jpg" alt="Kyoto Temple" />
+            </div>
+            <div class="destination">
+                <h3>New York City, USA</h3>
+                <p>The Big Apple offers endless attractions, from Broadway shows to world-class museums.</p>
+                <img src="nyc.jpg" alt="New York City" />
+            </div>
+        </section>
+        <section id="itineraries">
+            <h2>Sample Itineraries</h2>
+            <p>Select a destination to view a sample itinerary:</p>
+            <form>
+                <label for="destination">Choose a destination:</label>
+                <select id="destination" name="destination">
+                    <option value="paris">Paris</option>
+                    <option value="kyoto">Kyoto</option>
+                    <option value="nyc">New York City</option>
+                </select>
+                <input type="submit" value="View Itinerary">
+            </form>
+        </section>
+        <section id="travel-tips">
+            <h2>Travel Tips</h2>
+            <ul>
+                <li>Research visa requirements and travel advisories for your destination.</li>
+                <li>Pack light but bring essentials like travel insurance and necessary medications.</li>
+                <li>Book accommodations and transportation in advance to secure the best deals.</li>
+                <li>Stay informed about the local culture and customs to ensure a respectful and enjoyable trip.</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need assistance with planning your trip, feel free to reach out!</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea><br>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Vacation Planner. All rights reserved.</p>
+    </footer>
+</body>
+</html>
